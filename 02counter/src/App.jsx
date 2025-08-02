@@ -5,7 +5,17 @@ function App() {
   const [count, setCount] = useState(1)
 
   const increment = () => {
-    setCount(count + 1)
+    setCount(count+1)
+    
+
+    /*for interview purpuse
+    setCount(prevCounter => prevCounter + 1)
+    setCount(prevCounter => prevCounter + 1)
+    setCount(prevCounter => prevCounter + 1)
+    setCount(prevCounter => prevCounter + 1)
+    */
+    
+
      if(count==20)
   {
     alert("high value arrived")
